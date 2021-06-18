@@ -1,0 +1,34 @@
+Application Type: Mobile Native, Hybrid
+Mobile Platform: iOS, Android
+Programming Language: Java, JS, Python, Swift, C#
+Unit Framework: TestNG, JUnit, Mocha, Jest, Jasmine, PyTest, Unittest, Nose2, NONE
+Mobile Framework: Appium, Espresso, XCUITest, Detox, Xamarin
+
+IF [Mobile Framework] = "Appium"
+	THEN [Programming Language] in {"Java", "JS", "Python", "C#"};
+
+IF [Mobile Framework] = "Espresso"
+	THEN [Application Type] = "Mobile Native" AND [Mobile Platform] = "Android" AND [Programming Language] = "Java" AND [Unit Framework] = "JUnit";
+
+IF [Mobile Framework] = "XCUITest"
+	THEN [Application Type] = "Mobile Native" AND [Mobile Platform] = "iOS" AND [Programming Language] = "Swift" AND [Unit Framework] = "NONE"
+	ELSE [Unit Framework] <> "NONE";
+
+IF [Mobile Framework] = "Detox"
+	THEN [Programming Language] = "JS" AND [Unit Framework] in {"Mocha", "Jest"};
+
+IF [Mobile Framework] = "Xamarin"
+	THEN [Programming Language] = "C#";
+
+
+IF [Unit Framework] in {"TestNG", "JUnit"}
+	THEN [Programming Language] = "Java";
+
+IF [Unit Framework] in {"PyTest", "Nose2", "Unittest"}
+	THEN [Programming Language] = "Python";
+
+IF [Unit Framework] in {"Mocha", "Jest"}
+	THEN [Programming Language] = "JS";
+
+IF [Unit Framework] in {"Jasmine"}
+	THEN [Programming Language] in {"JS", "Python"};

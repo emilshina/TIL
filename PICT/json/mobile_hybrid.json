@@ -1,0 +1,135 @@
+[
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "iOS",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "Android",
+    "Programming Language": "Python",
+    "Unit Framework": "PyTest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "Android",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "Android",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Mobile Framework": "Detox"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Swift",
+    "Unit Framework": "NONE",
+    "Mobile Framework": "XCUITest"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "Android",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "Android",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Mobile Framework": "Detox"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Python",
+    "Unit Framework": "Jasmine",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "Android",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Java",
+    "Unit Framework": "JUnit",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "Android",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Python",
+    "Unit Framework": "PyTest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "iOS",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Mobile Framework": "Detox"
+  },
+  {
+    "Application Type": "Mobile Native",
+    "Mobile Platform": "Android",
+    "Programming Language": "Java",
+    "Unit Framework": "JUnit",
+    "Mobile Framework": "Espresso"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Mobile Framework": "Appium"
+  },
+  {
+    "Application Type": "Hybrid",
+    "Mobile Platform": "iOS",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Mobile Framework": "Appium"
+  }
+]

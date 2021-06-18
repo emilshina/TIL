@@ -1,0 +1,34 @@
+Application Type: Web
+Browser: Chrome, Firefox, Safari
+Programming Language: Java, JS, Python
+Unit Framework: TestNG, JUnit, Mocha, Jest, Jasmine, PyTest, Unittest, Nose2
+Web Framework: Selenide, Serenity, WebdriverIO, Cypress, CodeceptJS, Puppeteer, Playwright, Helium
+Infrastructure: Selenium Grid, Selenoid, NONE
+
+IF [Web Framework] = "Selenide"
+	THEN [Programming Language] = "Java" AND [Infrastructure] in {"Selenium Grid", "Selenoid"};
+
+IF [Web Framework] = "Serenity"
+	THEN [Programming Language] in {"JS"} AND [Infrastructure] = "NONE" AND [Browser] in {"Chrome", "Firefox"};
+
+IF [Web Framework] in {"Cypress", "Puppeteer", "CodeceptJS", "WebdriverIO"}
+	THEN [Programming Language] = "JS" AND [Infrastructure] = "NONE" AND [Browser] in {"Chrome", "Firefox"};
+
+IF [Web Framework] = "Playwright"
+	THEN [Programming Language] in {"JS", "Python", "Java"} AND [Infrastructure] in {"Selenium Grid", "Selenoid"} AND [Browser] in {"Chrome", "Firefox"};
+
+IF [Web Framework] = "Helium"
+	THEN [Programming Language] = "Python" AND [Infrastructure] in {"Selenium Grid", "Selenoid"};
+
+
+IF [Unit Framework] in {"TestNG", "JUnit"}
+	THEN [Programming Language] = "Java";
+
+IF [Unit Framework] in {"PyTest", "Nose2", "Unittest"}
+	THEN [Programming Language] = "Python";
+
+IF [Unit Framework] in {"Mocha", "Jest"}
+	THEN [Programming Language] = "JS" AND [Infrastructure] = "NONE" AND [Browser] in {"Chrome", "Firefox"};
+
+IF [Unit Framework] in {"Jasmine"}
+	THEN [Programming Language] in {"JS", "Python"} AND [Infrastructure] = "NONE";

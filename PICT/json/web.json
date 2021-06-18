@@ -1,0 +1,258 @@
+[
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Web Framework": "WebdriverIO",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Web Framework": "CodeceptJS",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Web Framework": "Puppeteer",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "Python",
+    "Unit Framework": "PyTest",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Safari",
+    "Programming Language": "Python",
+    "Unit Framework": "PyTest",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Web Framework": "Serenity",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Web Framework": "Cypress",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "Java",
+    "Unit Framework": "JUnit",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Web Framework": "CodeceptJS",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Web Framework": "WebdriverIO",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Safari",
+    "Programming Language": "Java",
+    "Unit Framework": "JUnit",
+    "Web Framework": "Selenide",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Web Framework": "Puppeteer",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Web Framework": "Selenide",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Web Framework": "Cypress",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Jest",
+    "Web Framework": "Serenity",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Safari",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Java",
+    "Unit Framework": "JUnit",
+    "Web Framework": "Selenide",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Web Framework": "Puppeteer",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Jasmine",
+    "Web Framework": "WebdriverIO",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Python",
+    "Unit Framework": "PyTest",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Web Framework": "Cypress",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Safari",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Web Framework": "Helium",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Python",
+    "Unit Framework": "Unittest",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "Python",
+    "Unit Framework": "Nose2",
+    "Web Framework": "Playwright",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Safari",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Web Framework": "Selenide",
+    "Infrastructure": "Selenoid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Web Framework": "Serenity",
+    "Infrastructure": "NONE"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Chrome",
+    "Programming Language": "Java",
+    "Unit Framework": "TestNG",
+    "Web Framework": "Selenide",
+    "Infrastructure": "Selenium Grid"
+  },
+  {
+    "Application Type": "Web",
+    "Browser": "Firefox",
+    "Programming Language": "JS",
+    "Unit Framework": "Mocha",
+    "Web Framework": "CodeceptJS",
+    "Infrastructure": "NONE"
+  }
+]
